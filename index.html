@@ -1,31 +1,223 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 	<head>
-		<style>
-			/* Google Font */
-			/* latin */
-			@font-face {
-			font-family: 'Google Sans';
-			font-style: normal;
-			font-weight: 400;
-			src: local('Google Sans Regular'), local(GoogleSans-Regular), url(//fonts.gstatic.com/s/googlesans/v5/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2) format("woff2");
-			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-			}
-			 
-			/* latin */
-			@font-face {
-			font-family: 'Google Sans';
-			font-style: normal;
-			font-weight: 500;
-			src: local('Google Sans Medium'), local('GoogleSans-Medium'), url(https://fonts.gstatic.com/s/googlesans/v11/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2) format('woff2');
-			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-			}
-			h1 {
-				font-family: 'Google Sans';
-			}
-		</style>
-		<title>Graffio Gaming</title>
+		<!-- optimization because i like performance -->
+ 		<link rel="preload" href="/assets/webfonts/source-sans-pro-normal.woff2" as="font" type="font/woff2" crossorigin>
+ 		<link rel="preload" href="/assets/webfonts/google-sans-regular.woff2" as="font" type="font/woff2" crossorigin>
+ 		<link rel="preload" href="/assets/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+ 		<link rel="preload" href="/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+		<link rel="preload" href="/assets/css/fontawesome-all.min.css" as="style">
+		<link rel="preload" href="/assets/css/fonts.css" as="style">
+		<link rel="preload" href="/assets/css/main.css" as="style">
+
+		<title>Graffio Gaming™</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		
+		<!-- favicons -->
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="shortuct icon" href="/favicon.ico">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#CFC0E1">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#CFC0E1">
+
+		<!-- SEO LMAOO -->
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Graffio Gaming™" />
+		<meta property="og:description" content="I AM THE CEO OF GAMING!!!!!!!!!!!" />
+		<meta property="og:url" content="https://graffiogaming.com" />
+		<meta name="type" content="website">
+		<meta name="title" content="Graffio Gaming™" />
+		<meta name="description" content="I AM THE CEO OF GAMING!!!!!!!!!!!" />
+		<meta name="url" content="https://graffiogaming.com" />
+		<link rel="canonical" href="https://graffiogaming.com"/>
 	</head>
-	<body>
-		<h1>Coming Soon™</h1>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header" class="alt">
+					<span class="logo">
+						<svg class="graffIcon" width="85px" height="85px" version="1.0" viewBox="0 0 3500 3500" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0 3500) scale(.1 -.1)" fill="#fff"><path d="m17000 34993c-1952-60-3816-422-5605-1088-2094-780-3991-1938-5675-3463-243-221-755-725-990-977-3441-3681-5112-8561-4655-13592 226-2475 988-4890 2227-7053 637-1113 1378-2130 2256-3100 221-243 725-755 977-990 3681-3441 8561-5112 13592-4655 2475 226 4890 988 7053 2227 1113 637 2130 1378 3100 2256 243 221 755 725 990 977 3441 3681 5112 8561 4655 13592-226 2475-988 4890-2227 7053-637 1113-1378 2130-2256 3100-221 243-725 755-977 990-3009 2813-6830 4456-10930 4700-433 25-1121 36-1535 23z"/></g><g transform="translate(0 3500) scale(.1 -.1)"><path class="graffsvg" d="m25700 28187c-85-32-559-298-740-415-275-179-460-331-736-606-313-314-506-552-844-1044-133-195-156-223-174-217-12 3-86 20-166 37-128 28-164 32-310 32-188 1-672-30-711-45-30-12-25 11-74-309-55-364-69-526-70-810 0-206 4-275 19-360 22-126 79-302 146-453 55-121 58-141 31-176l-18-23-84 17c-46 9-156 45-244 80-88 34-186 70-218 80-55 17-58 17-77 0-11-10-20-24-20-30 0-7 25-78 55-159 52-138 101-244 142-308 30-48 16-51-203-38-458 26-1624 23-2150-6l-110-6-28 193c-85 601-202 1065-406 1609-239 640-544 1270-805 1665-174 263-328 448-581 695-251 245-295 281-347 287-55 6-137-10-203-41-64-29-251-191-628-541-307-285-527-590-756-1045-200-400-335-650-350-650-4 0-28 39-53 88-40 77-89 216-173 496-27 88-77 167-95 149-5-5-13-114-19-243s-19-327-30-440c-25-256-25-298 0-395 11-43 20-107 20-143 0-62-5-75-132-344l-132-280-81 6c-44 3-240 11-436 16-500 15-903 0-1384-51-104-11-230-23-278-26-61-4-90-10-94-20-3-7 5-34 16-59 19-40 24-84 42-367 83-1354 169-1829 383-2114 131-174 312-249 634-262 111-5 176-11 184-19 16-16-16-49-195-204-141-123-175-166-164-210 10-39 123-78 228-78 21 0 40-4 44-9 3-6-11-94-30-198-142-748-200-1300-223-2150-4-138-10-254-13-257s-111 1-240 9-347 15-485 15c-659 0-908-87-1240-432-121-127-186-218-244-341-106-226-105-425 2-605 45-75 154-190 244-257 162-122 459-281 804-430 160-69 765-312 834-335l39-12-6-57c-7-72-51-210-78-245-27-34-64-34-92 1-103 126-149 148-252 118-96-28-164-116-244-318-49-123-94-204-171-312-39-55-103-164-143-242l-71-141-66-6c-36-3-158-8-272-12l-208-6-82 78c-184 173-264 223-383 243-33 6-98 17-145 26-105 19-205 19-256 1-127-44-198-89-288-180-50-50-188-168-306-261-397-314-607-488-780-650-58-55-87-75-130-88-73-22-147-70-222-143-55-53-128-151-128-171 0-4-114-45-253-91-138-46-308-105-377-133-401-159-790-409-1070-689-157-156-273-316-370-511-23-46-113-205-200-354-185-317-310-540-405-720-38-71-99-178-136-236-146-229-325-557-392-720l-15-37 110-178c786-1279 1761-2420 2903-3399 643-552 1414-1097 2145-1517 1839-1057 3859-1684 5965-1852 416-33 614-40 1140-41 549 0 755 8 1205 46 2650 221 5152 1167 7293 2757 182 135 206 156 195 171-49 63-236 268-353 385-206 207-399 368-628 525-43 30-76 55-74 57s37 8 78 14c253 35 457 96 664 199 404 200 892 590 1239 989 49 56 91 100 94 98 10-10-162-340-235-451-85-128-140-199-265-336-43-47-78-89-78-94 0-4 12-5 28-2 219 39 486 201 634 383 43 54 54 62 59 47 20-49 2-224-30-306-14-37-14-37 7-37 17 0 271 95 412 155 128 54 338 166 444 237 126 84 281 227 361 333 273 363 312 819 135 1610-32 144-154 626-190 750-11 38-20 76-20 82 0 9 21 13 72 13 102 0 285 45 293 72 4 11 5 20 3 21-1 1-48 24-103 51-222 107-362 213-447 340-65 94-135 251-197 443-60 181-196 681-189 689 3 2 19-1 37-7 41-14 118-6 139 14 14 15 9 29-51 157-77 161-154 382-192 553-59 269-92 506-165 1222-90 878-120 1097-190 1392-16 67-39 182-50 255-39 241-75 369-127 444-23 35-25 45-21 115 9 148 47 176 252 188 132 7 137 8 166 36 17 16 49 63 71 105 23 41 98 174 168 295l126 220-2 65c-1 70-29 184-118 485l-56 190 12 420c26 891 16 1898-27 2590-77 1264-296 2562-605 3579-272 896-605 1704-1349 3279-22 47-41 72-62 83-41 21-117 27-158 11z" fill="currentColor"/></g></svg>
+					</span>
+					<h1 class="product-sans">Graffio Gaming</h1>
+					<p>YOU SHOULD SEE ME GAMING!!!111!<br />
+					built by <a rel=dns-prefetch href="https://twitter.com/hyblocker">@hyblocker</a> for graff</a>.</p>
+				</header>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="#intro" class="active">inortduction</a></li>
+						<li><a href="#first">gmaing</a></li>
+						<li><a href="#second">wow very gmae!!</a></li>
+						<li><a href="#cta">secret part</a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Introduction -->
+						<section id="intro" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Hellooooooooooo!!!!!!!!!!!!!!!!!!!</h2>
+									</header>
+									<p>hewwo! i am graffio and i like gaming a lot</p>
+									<ul class="actions">
+										<li><a href="/images/cat_olimpics.gif" class="button">YOOOOOOO</a></li>
+									</ul>
+								</div>
+								<span class="image wide"><img src="/images/cat_olimpics.gif" alt="" /></span>
+							</div>
+						</section>
+
+						<!-- gmaing -->
+						<section id="first" class="main special">
+							<header class="major">
+								<h2>But Graffio, why is gaming poggers?</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<span class="icon solid major style1 fa-gamepad"></span>
+									<h3>gaming is cool</h3>
+									<p>i have many games</p>
+								</li>
+								<li>
+									<span class="icon major style3 fa-heart"></span>
+									<h3>gaming > life</h3>
+									<p>gaming is best thing you can do in your life</p>
+								</li>
+								<li>
+									<span class="icon major style5 fa-gem"></span>
+									<h3>i am ceo of gaming</h3>
+									<p>and i shall make you do gaming</p>
+								</li>
+							</ul>
+							<footer class="major">
+								<ul class="actions special">
+									<li><a href="/how-to-gaming.html" class="button">teach me the spells of gaming</a></li>
+								</ul>
+							</footer>
+						</section>
+
+						<!-- wow very game!!! -->
+						<section id="second" class="main special">
+							<header class="major">
+								<h2>GOOD GMAEESSS!!!</h2>
+								<p>i like GAMES!!!!! here are some god gaems you wil1 play!111</p>
+							</header>
+							<ul class="statistics">
+								<a href="https://store.steampowered.com/app/105600/Terraria/">
+									<li class="style1">
+										<img class="cool-icon" alt="terraria" src="/images/terrae.png"></img>
+										<strong></strong> Terrae
+									</li>
+								</a>
+								<a href="https://ungoogled-software.github.io/">
+									<li class="style2">
+										<img class="cool-icon" alt="ungoogled chromium" src="/images/fuck-google-use-ungoogled-chromium.png"></img>
+										<strong></strong> ungoogled chromium
+									</li>
+								</a>
+								<a href="http://www.chin8neri.it/">
+									<li class="style3">
+										<img class="cool-icon" alt="chin8" src="/images/you-should-try-this-next-time-you-visit-pasta-land.png"></img>
+										<strong></strong> chin8
+									</li>
+								</a>
+								<a href="https://ninja-muffin24.itch.io/funkin/">
+									<li class="style4">
+										<img class="cool-icon" alt="friday night funkin'" src="/images/funkin-icon.png"></img>
+										<strong></strong> friday night funkin
+									</li>
+								</a>
+								<a href="https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/">
+									<li class="style5">
+										<img class="cool-icon" alt="crypt of the necrodancer" src="/images/crypt-is-addictiveeeee.png"></img>
+										<strong></strong> crypt of the necrodancer
+									</li>
+								</a>
+							</ul>
+							<p class="content">so basically, i like gaming. play
+								<a href="https://store.steampowered.com/app/105600/Terraria/">terrae</a>
+								its good game. then play <a href="https://ninja-muffin24.itch.io/funkin/">fnf</a>. is good. i approve. you know what else is a good game?
+								<a href="https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/">crypt of the necrodancer</a>. its veryyyyyyy gooooooood.
+								buy the <a href="https://store.steampowered.com/bundle/2564/NecroDancer_AMPLIFIED_PACK/">amplified dlc too</a> its worth it. ALSO. BUY CHINOTTO. ITS THE ONLY DRINK YOU CAN DRINK.
+								lastly, there's this evil shitty company called google. i said fuck google so i got <a href="https://ungoogled-software.github.io/">ungoogled chromium</a>
+								its SO MUCH BETTER than
+								<a href="https://www.independent.co.uk/life-style/gadgets-and-tech/news/google-chrome-incognito-mode-personal-data-private-browser-a8502386.html">stock</a>
+								<a href="https://www.news18.com/news/tech/google-faces-5-billion-lawsuit-for-collecting-user-information-via-chromes-incognito-mode-2650635.html"> privacy</a>
+								<a href="https://www.wired.com/story/google-tracks-you-privacy/"> invasive</a>
+								<a href="https://www.cnet.com/how-to/google-collects-a-frightening-amount-of-data-about-you-you-can-find-and-delete-it-now/"> data</a>
+								<a href="https://www.laptopmag.com/articles/keep-google-spying-kids-chromebook"> collecting</a>
+								 chrome. ungoogled chromium is basically chrome but no google. download it pls its better for your privacy. no one needs the amount of data google has about you
+							</p>
+							<footer class="major">
+								<ul class="actions special">
+									<li><a href="/buy-games-now-i-have-gun.html" class="button">i like these gmaes too!!!!</a></li>
+								</ul>
+							</footer>
+						</section>
+
+						<!-- secret part -->
+						<section id="cta" class="main special">
+							<header class="major">
+								<h2>by the way....</h2>
+								<p>for some reason whoever wrote this website decided to make it an installable app</br>no one knows why, we only accept</p>
+							</header>
+							<footer class="major">
+								<ul class="actions special">
+									<li><a href="/install.html" class="button primary">how do i install i need maximum gaming</a></li>
+									<li><a href="/shrug-lol.html" class="button">bruh</a></li>
+								</ul>
+							</footer>
+						</section>
+
+				</div>
+
+				<!-- fake tos lmao -->
+				<footer id="footer">
+					<section class="center section">
+						<h2>terms of service???</h2>
+						<p>by using this website you agreee to sell your soul to gaming.</p>
+						<ul class="actions">
+							<li><a href="/terms.html" class="button">sounds cool ngl</a></li>
+						</ul>
+					</section>
+					<p class="copyright">&copy; Graffio 2021.</p>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="/assets/js/jquery.min.js"></script>
+		<script src="/assets/js/jquery.scrollex.min.js"></script>
+		<script src="/assets/js/jquery.scrolly.min.js"></script>
+		<script src="/assets/js/browser.min.js"></script>
+		<script src="/assets/js/breakpoints.min.js"></script>
+		<script src="/assets/js/util.js"></script>
+		<script src="/assets/js/main.js"></script>
+
 	</body>
 </html>
